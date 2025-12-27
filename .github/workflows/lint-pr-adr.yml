@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Parse PR label and title
-        uses: actions/github-script@v6
+        uses: actions/github-script@v8
         id: lint_title_adr
         with:
           result-encoding: json
